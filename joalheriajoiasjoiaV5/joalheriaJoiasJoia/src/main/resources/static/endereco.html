@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="./css/endereco.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Endereço</title>
+</head>
+<body>
+    
+    <form id="cadastroEnderecoForm">
+        
+        <h1>❀ Endereço ❀</h1>
+
+        <label for="cep"> Cep:</label>
+        <input type="text" name="cep" id="cep"
+        required="required" autofocus><br>
+       
+        <label for="rua"> Rua:</label>
+        <input type="rua" name="rua" id="rua"
+        readonly><br>
+
+        <label for="bairro"> Bairro:</label>
+        <input type="bairro" name="bairro" id="bairro"
+        readonly><br>
+
+        <label for="numero"> Número do Endereço:</label>
+        <input type="numero" name="numero" id="numero"
+        required><br>
+
+        <label for="cidade"> Cidade:</label>
+        <input type="cidade" name="cidade" id="cidade"
+        readonly><br>
+
+        <label for="estado"> Estado:</label>
+        <input type="estado" name="estado" id="estado" readonly
+        placeholder=""><br>
+       
+            <label>Complemento:</label>
+            <textarea name="informações" rows="8" cols="25"
+            maxlenght="100" required placeholder="Casa, Apartamento ou Condomínio. Com quem deixar a entrega caso não tenha ninguém em casa."></textarea>
+            <br>
+            <input type="submit" name="enviar" value="Enviar"
+            id="enviar">
+
+        </select>
+
+		<script src="./script/scriptEndereco.js"></script>
+		
+    </form>
+
+</body>
+</html>

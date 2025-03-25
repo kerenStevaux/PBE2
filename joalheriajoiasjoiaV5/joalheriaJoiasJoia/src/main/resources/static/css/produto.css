@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #503b35;
+   }
+   
+   body{
+       background-color:#f1dad2;
+   }
+   
+   label, input, select, textarea{
+       display: block ;
+       width: 95%;
+       padding: 10px;
+       margin-bottom: 20px;
+   }
+   .roboto-thin {
+      font-family: "Roboto", sans-serif;
+    }
+   
+    form{
+       width: 550px;
+       margin: auto;
+       background: #999b86;
+       padding: 40px;
+       border-radius: 10px;
+    }
+    label{
+       font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #503b35;
+       margin: 0;
+       width: 100% ;
+       font-size: 18px;
+    }
+    .emlinha{
+       display: inline;
+       width: 10%;
+       font-size: 16px;
+    }
+    .medidas{
+       display: inline;
+       width: 35%;
+    }
+    input[type='checkbox'], input[type='radio']{
+      margin-right: 0px;
+      margin-left: 15px;
+   }
+   input:focus, select:focus, textarea:focus{
+      outline: none;
+      border: solid 1px #deb8ad;
+      background-color: #f5f0ed;
+   }
+
+   button {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #deb8ad;
+    color: #f5f0ed;
+  transition:all linear 0.3;
+    }
