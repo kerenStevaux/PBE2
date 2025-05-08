@@ -1,0 +1,83 @@
+/* Reset básico para todos elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 20px;
+}
+
+.cabecalho-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botões do cabeçalho */
+#botoes-cabecalho button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botoes-cabecalho button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Container principal das páginas */
+.container {
+    flex: 1; /* Faz o conteúdo crescer para preencher a tela */
+    padding: 30px 20px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 400px; /* Limita largura para melhor leitura */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título dentro do container */
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos formulários */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botão do formulário */
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8fb7e1; /* verde */
+}
